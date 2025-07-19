@@ -73,7 +73,7 @@ Supported platforms:
   Covers bin-level expression data (e.g., bin50), handling sparse matrices, and resource optimization for large-scale mapping.
 
 - **[STARmap](https://github.com/caiquanyou/Polyomino/blob/main/platform_guides/STARMAP.md)**  
-  Describes 3D point cloud voxelization, coordinate normalization, and specific recommendations for high-resolution datasets.
+  Describes single cell level expression data, coordinate normalization, and specific recommendations for high-resolution datasets.
 
 These guides will be continuously updated based on user feedback and software improvements. If you encounter any issues or have suggestions, please open an issue on our [GitHub Issues page](https://github.com/caiquanyou/Polyomino/issues).
 
