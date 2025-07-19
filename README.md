@@ -52,6 +52,32 @@ Polyomino \
     [--device {cpu,cuda}]
  ```
 
+## Platform-specific Usage Guides
+
+Polyomino supports multiple spatial transcriptomics platforms, each requiring specific preprocessing steps to ensure accurate mapping. To facilitate reproducibility and ease of use across diverse datasets, we provide detailed, platform-specific usage guides.
+
+These guides include:
+- Data preprocessing steps (e.g., format conversion, filtering)
+- Recommended voxel size settings
+- Example scripts for integration
+- Notes on performance considerations
+
+You can find the usage guides in the [`platform_guides/`](https://github.com/caiquanyou/Polyomino/tree/main/platform_guides) directory of the repository.
+
+Supported platforms:
+
+- **[10x Genomics Visium](https://github.com/caiquanyou/Polyomino/blob/main/platform_guides/Visium.md)**  
+  Instructions for processing Space Ranger output and generating voxel grids. Typical voxel size: 50–100 μm.
+
+- **[BGI Stereo-seq](https://github.com/caiquanyou/Polyomino/blob/main/platform_guides/Stereo-seq.md)**  
+  Covers bin-level expression data (e.g., bin50), handling sparse matrices, and resource optimization for large-scale mapping.
+
+- **[STARmap](https://github.com/caiquanyou/Polyomino/blob/main/platform_guides/STARMAP.md)**  
+  Describes 3D point cloud voxelization, coordinate normalization, and specific recommendations for high-resolution datasets.
+
+These guides will be continuously updated based on user feedback and software improvements. If you encounter any issues or have suggestions, please open an issue on our [GitHub Issues page](https://github.com/caiquanyou/Polyomino/issues).
+
+
 Contributing
 ------------
 Contributions to Polyomino are welcome. Please refer to the project's issues and pull requests for areas where you can help.
