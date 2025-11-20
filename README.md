@@ -35,7 +35,7 @@ After installation, Polyomino can be used in Python as follows:
     stdata_grid = po.generate_grid(stdata,width=none)
     po_object = po.Polyomino(scdata,stdata_grid,cluster_time=1,device='cpu')
     po_object.allocate()
-    cell_alocated_data = po.sc2sc(scdata, stdata, zm_object.spot_matrix,thres=0.1,method='max')
+    cell_alocated_data = po.sc2sc(scdata, stdata, po_object.spot_matrix,thres=0.1,method='max')
  ```
 Also can running in terminal:
  ```bash
@@ -89,3 +89,4 @@ License
 Support and Contact
 -------------------
 For support or to contact the developers, please use the project's GitHub Issues page.
+
